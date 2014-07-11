@@ -22,6 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+
+      <file leaf-file-name="android.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/android.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1321" max-vertical-offset="11700">
+              <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+
       <file leaf-file-name="bootstrapswitch.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/bootstrapswitch.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,13 +67,21 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
-              <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
+
+            <state vertical-scroll-proportion="0.495283" vertical-offset="0" max-vertical-offset="424">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="30271" max-vertical-offset="92490">
+              <caret line="2027" column="27" selection-start-line="2027" selection-start-column="26" selection-end-line="2027" selection-end-column="27" />
+              <folding />
+
             </state>
           </provider>
         </entry>
@@ -69,8 +89,10 @@
       <file leaf-file-name="android.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.tmp/styles/android.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.78" vertical-offset="6211" max-vertical-offset="11490">
-              <caret line="430" column="0" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
+
+            <state vertical-scroll-proportion="0.0" vertical-offset="1835" max-vertical-offset="11340">
+              <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+
               <folding />
             </state>
           </provider>
@@ -106,9 +128,11 @@
     <initial>false</initial>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="140" />
-    <option name="width" value="835" />
+
+    <option name="x" value="464" />
+    <option name="y" value="127" />
+    <option name="width" value="836" />
+
     <option name="height" value="570" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -159,7 +183,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,7 +212,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+
+              <option name="myItemId" value="app" />
+
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,6 +231,12 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -226,13 +258,18 @@
           </PATH>
         </subPane>
       </pane>
+
+      <pane id="Scope" />
+
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular_project/simple" />
+
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -318,8 +355,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="140" width="835" height="570" extended-state="0" />
-    <editor active="true" />
+
+    <frame x="464" y="127" width="836" height="570" extended-state="1" />
+    <editor active="false" />
+
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -327,7 +366,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31966224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3192771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -362,6 +403,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+
+    <entry file="file://$PROJECT_DIR$/app/styles/android.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1321" max-vertical-offset="11700">
+          <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrapswitch.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="5475">
@@ -388,61 +439,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bootstrapswitch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5475">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1365">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
+
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="92490">
+          <caret line="2027" column="27" selection-start-line="2027" selection-start-column="26" selection-end-line="2027" selection-end-column="27" />
+
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/.tmp/styles/android.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1835" max-vertical-offset="11340">
+          <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
+
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/android.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4580" max-vertical-offset="11280">
+          <caret line="317" column="36" selection-start-line="317" selection-start-column="36" selection-end-line="317" selection-end-column="36" />
+          <folding />
+
         </state>
       </provider>
     </entry>
@@ -488,7 +527,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+
         </state>
       </provider>
     </entry>
@@ -496,7 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+
         </state>
       </provider>
     </entry>
@@ -504,7 +543,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3326923" vertical-offset="232" max-vertical-offset="1200">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+
         </state>
       </provider>
     </entry>
@@ -533,7 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61042184" vertical-offset="8934" max-vertical-offset="82140">
           <caret line="612" column="20" selection-start-line="612" selection-start-column="20" selection-end-line="612" selection-end-column="20" />
-          <folding />
+
         </state>
       </provider>
     </entry>
@@ -541,14 +580,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="2465" max-vertical-offset="9150">
           <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="632">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+
         </state>
       </provider>
     </entry>
@@ -560,6 +592,15 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="632">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1365">
@@ -576,31 +617,41 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30271" max-vertical-offset="92490">
+          <caret line="2027" column="27" selection-start-line="2027" selection-start-column="26" selection-end-line="2027" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/android.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.521839" vertical-offset="5863" max-vertical-offset="11715">
-          <caret line="435" column="4" selection-start-line="435" selection-start-column="4" selection-end-line="435" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1321" max-vertical-offset="11700">
+          <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.tmp/styles/android.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.78" vertical-offset="6211" max-vertical-offset="11490">
-          <caret line="430" column="0" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
+
+        <state vertical-scroll-proportion="0.0" vertical-offset="1835" max-vertical-offset="11340">
+          <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
+
+        <state vertical-scroll-proportion="0.495283" vertical-offset="0" max-vertical-offset="424">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="49" />
+          <folding />
+
         </state>
       </provider>
     </entry>
