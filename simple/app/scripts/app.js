@@ -19,7 +19,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+        .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
@@ -27,6 +27,18 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+        .when('/activity_list',{
+            templateUrl:'views/activity_list.html',
+            controller:'ActivityListCtrl'
+        }
+
+    )
+        .when('/enter_activity',{
+            templateUrl:'views/enter_activity.html',
+            controller:'EnterActivityCtrl'
+        }
+
+    )
       .otherwise({
         redirectTo: '/'
       });
