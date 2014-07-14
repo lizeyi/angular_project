@@ -14,4 +14,10 @@ angular.module('simpleApp')
             'AngularJS',
             'Karma'
         ];
+
+
+        var activities = JSON.parse(localStorage.getItem('activities'))
+        console.log(activities,'----------------------------')
+
     });
+
