@@ -26,7 +26,15 @@ angular.module('simpleApp')
 //          将存储的activity按顺序压入到activities里.
           localStorage.setItem("activities", JSON.stringify(activities));
 //          将activities数组里的数据转换成字符串然给了activities.
-      }
 
+
+
+      }
+        var activities= JSON.parse(localStorage.getItem('activities'))
+        if (!activities){
+            $scope.fanhui="false"
+        }
+        else
+        {$scope.fanhui="true"}
 
   });
