@@ -16,12 +16,17 @@ angular.module('simpleApp')
         ];
 
 
-        var activities = JSON.parse(localStorage.getItem('activities'))
-        console.log(activities,'----------------------------')
+        $scope.list = JSON.parse(localStorage.getItem('activities'))
+
+
 
 
         $scope.creat_activity=function(){
             $location.path('/')
+        }
+
+        if(!name){
+
         }
 
     });
