@@ -8,10 +8,16 @@
  * Controller of the simpleApp
  */
 angular.module('simpleApp')
-    .controller('EnterActivityCtrl', function ($scope) {
+    .controller('EnterActivityCtrl', function ($scope,$location) {
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',
             'Karma'
         ];
+
+        $scope.fan_hui=function(){
+            $location.path('/activity_list')
+        }
+
+
     });

@@ -1,8 +1,7 @@
-<header>
+<header style="color: #ffffff">
     活动列表
     <div class="header-right header-right-pulldown">
-        <a href="/" class="btn-style btn-4">创建活动</a>
+        <a ng-click="creat_activity()" class="btn-style btn-4">创建活动</a>
         <div class="header-right">
     </div>
 
-    <ul><li ng-repeat="list in lists">{{list.$activities}}</li></ul>

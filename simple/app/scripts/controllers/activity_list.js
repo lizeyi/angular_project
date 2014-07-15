@@ -8,7 +8,7 @@
  * Controller of the simpleApp
  */
 angular.module('simpleApp')
-    .controller('ActivityListCtrl', function ($scope) {
+    .controller('ActivityListCtrl', function ($scope,$location) {
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',
@@ -18,6 +18,11 @@ angular.module('simpleApp')
 
         var activities = JSON.parse(localStorage.getItem('activities'))
         console.log(activities,'----------------------------')
+
+
+        $scope.creat_activity=function(){
+            $location.path('/')
+        }
 
     });
 

@@ -8,7 +8,7 @@
  * Controller of the simpleApp
  */
 angular.module('simpleApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope,$location) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -26,7 +26,7 @@ angular.module('simpleApp')
 //          将存储的activity按顺序压入到activities里.
           localStorage.setItem("activities", JSON.stringify(activities));
 //          将activities数组里的数据转换成字符串然给了activities.
-
+          $location.path('/activity_list')
 
 
       }
@@ -36,5 +36,15 @@ angular.module('simpleApp')
         }
         else
         {$scope.fanhui="true"}
+
+
+        $scope.fan_hui=function(){
+            $location.path('/activity_list')
+        }
+
+
+
+
+
 
   });
