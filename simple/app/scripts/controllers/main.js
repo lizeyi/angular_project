@@ -16,8 +16,8 @@ angular.module('simpleApp')
         ];
 
 
-        var activities = JSON.parse(localStorage.getItem('activities'))
-        if (!activities) {
+        var activities = JSON.parse(localStorage.getItem('activities'))||[];
+        if (activities.length == 0) {
             $scope.fanhui = "false"
         }
         else {

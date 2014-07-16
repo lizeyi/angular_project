@@ -16,7 +16,7 @@ angular.module('simpleApp')
         ];
 
         $scope.fan_hui=function(){
-            $location.path('/activity_list')
+            $location.path('activity_list')
         }
 
 

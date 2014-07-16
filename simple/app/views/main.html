@@ -7,20 +7,23 @@
 </header>
 <hr>
 
-<h3  style="color: #000000" class="weizhi">活动名称</h3>
+<h5 style="color: #000000" >活动名称</h5>
 
-<input type="text" class="weizhi0"ng-model="name" >
-
-
-
-<div class="logo-flat" ng-show="show_render">活动名重复</div>
-
-        <button class="button-0 btn-primary" ng-click="create_activity()" ng-disabled="!name"><h4 style="color: #ffffff" >创建</h4></button>
-</input>
+<input type="text" class="input-full" ng-model="name" >
 
 
 
 
+
+<div style="color:#ff0000 ;"  ng-show="show_render" class="logo-flat">*活动名重复*</div>
+<button class="btn btn-primary btn-lg btn-block "  ng-click="create_activity()" ng-disabled="!name">创建
+</button>
+
+
+<!--<div class="logo-flat" ng-show="show_render">活动名重复</div>-->
+
+<!--<button class="btn  btn-primary btn-lg btn-block button-1 " ng-click="create_activity()" ng-disabled="!name">创建-->
+<!--</button>-->
 
 
 
