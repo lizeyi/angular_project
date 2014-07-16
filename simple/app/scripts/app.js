@@ -19,12 +19,12 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-        .when('/', {
+        .when('/main', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
 
-        .when('/activity_list',{
+        .when('/',{
             templateUrl:'views/activity_list.html',
             controller:'ActivityListCtrl'
         }

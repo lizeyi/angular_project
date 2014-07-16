@@ -22,11 +22,22 @@ angular.module('simpleApp')
 
 
         $scope.creat_activity=function(){
-            $location.path('/')
+            $location.path('/main')
         }
 
         if(!name){
 
+        }
+
+        choose_index()
+        function choose_index(){
+            var choose = JSON.parse(localStorage.getItem('activities')) || []
+            if(choose.length==0){
+                $location.path('/main')
+            }
+           else{
+
+            }
         }
 
     });
