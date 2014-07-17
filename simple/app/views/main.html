@@ -6,18 +6,18 @@
     </div>
 </header>
 <hr>
-
+<div style="margin-top: 80px">
 <h5 style="color: #000000" >活动名称</h5>
 
-<input type="text" class="input-full" ng-model="name" >
+<input type="text" style="height: 40px" class="input-full" ng-model="name" >
 
 
 
 
 
-<div style="color:#ff0000 ;"  ng-show="show_render" class="logo-flat">*活动名重复*</div>
-<button class="btn btn-primary btn-lg btn-block "  ng-click="create_activity()" ng-disabled="!name">创建
-</button>
+<div style="color:#ff0000 ;"  ng-show="show_render" class="logo-flat"><h5>*活动名重复*</h5></div>
+<button class="btn btn-primary btn-lg btn-block " style="margin-top: 30px;height: 40px" ng-click="create_activity()" ng-disabled="!name">创建
+</button></div>
 
 
 <!--<div class="logo-flat" ng-show="show_render">活动名重复</div>-->

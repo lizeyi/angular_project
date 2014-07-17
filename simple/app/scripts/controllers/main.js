@@ -31,7 +31,7 @@ angular.module('simpleApp')
 
 
         $scope.create_activity = function () {
-            console.log('1111111111')
+
             judge_repeat_activity();
 
         }
@@ -40,7 +40,6 @@ angular.module('simpleApp')
             var activities = JSON.parse(localStorage.getItem('activities')) || []
 
             if (activities == '') {
-                console.log('333333333333')
                 var activity = {}
                 activity.name = $scope.name;
                 activities.unshift(activity);
@@ -48,11 +47,8 @@ angular.module('simpleApp')
                 $location.path('/enter_activity')
             }
             else {
-                console.log('4444444444444')
                 for (var i = 0; i < activities.length; i++) {
-                    console.log('555555555555555')
                     if (activities[i].name == $scope.name) {
-                        console.log('666666666666')
                         $scope.show_render = true;
                         return;
                     }

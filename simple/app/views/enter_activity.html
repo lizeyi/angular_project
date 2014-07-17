@@ -1,4 +1,4 @@
-<body xmlns="http://www.w3.org/1999/html">
+<body xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <header style="color: #ffffff">
     报名
@@ -8,14 +8,29 @@
     <div class="header-left">
         <a ng-click="fan_hui()" class="btn-style btn-4">返回</a>
     </div>
+
+
+
     <div class="header-right">
-        <a ng-click="fan_hui()" class="btn-style btn-4">开始</a>
+
+            <div ng-switch on="loginData">
+                <div class="btn-style btn-4" ng-switch-when="false" ng-click="kai_shi()">开始</div>
+                <div class="btn-style btn-4"  ng-switch-when="true" ng-click="jie_shu()">结束</div>
+             </div>
+          </div>
+
+
+
+
+ <!--<a ng-click= class="btn-style btn-4">开始</a>-->
 
     <!--</div>-->
     <!--<div class="header-pulldown">   &lt;!&ndash;空白行&ndash;&gt;-->
 <!---->
     <!--</div>-->
-     </header>
+</div>
+</header>
+</body>
 
 
 <footer >
