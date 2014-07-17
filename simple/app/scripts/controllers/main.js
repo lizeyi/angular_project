@@ -37,7 +37,7 @@ angular.module('simpleApp')
         }
 
         function judge_repeat_activity() {
-            var activities = JSON.parse(localStorage.getItem('activities')) || []
+            var activities = JSON.parse(localStorage.getItem('activities' )) || []
 
             if (activities == '') {
                 var activity = {}

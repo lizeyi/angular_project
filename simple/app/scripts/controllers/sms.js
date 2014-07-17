@@ -15,7 +15,32 @@ var native_accessor = {
 
     process_received_message:function (json_message) {
 console.log(json_message)
-    }};
+
+console.log(json_message.messages[0].message)
+        console.log(json_message.messages[0].phone)
+
+
+        var massages={"name":"name",'phone':'phone'}
+        massages.name=json_message.messages[0].message;
+        massages.phone=json_message.messages[0].phone;
+        console.log(massages)
+
+
+
+        message=JSON.parse(localStorage.getItem('activities'));
+
+         message.unshift(massages)
+        localStorage.setItem("activities", JSON.stringify(message));
+
+
+
+
+        }
+
+
+
+
+    };
 
 
 
@@ -26,3 +51,4 @@ function notify_message_received(message_json) {
     native_accessor.receive_message(message_json);
     //phone_number=message_json.messages[0].phone;
 }
+

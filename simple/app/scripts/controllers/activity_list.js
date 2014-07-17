@@ -40,5 +40,14 @@ angular.module('simpleApp')
             }
         }
 
+
+
+
+        $scope.activity_yellow = function (activity) {
+            if (Activity.background_yellow(activity)) {
+                return "start";
+            }
+        }
+
     });
 

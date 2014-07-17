@@ -23,20 +23,23 @@ angular.module('simpleApp')
         $scope.loginData="false"
         $scope.kai_shi=function(){
             $scope.loginData="true"
-//        $scope.jie_shu=function(){
-//            $scope.loginData="false"
-//
-//                }
 
-            }
+
+                }
+
+
         $scope.jie_shu = function firm() {
             //利用对话框返回的值 （true 或者 false）
             if (confirm("确认要结束本次报名吗？")) {
-
-                $scope.loginData="false"
+                  $scope.loginData="false"
             }
 
         }
+
+      //  var message = json_message.messages[0].message.replace(/\s/g, "");
+//        message.search(/bm/i) == 0
+
+
 
 
     });

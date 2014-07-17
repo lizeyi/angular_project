@@ -1,4 +1,4 @@
-<body xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
 
 <header style="color: #ffffff">
     报名
@@ -10,31 +10,38 @@
     </div>
 
 
-
     <div class="header-right">
 
-            <div ng-switch on="loginData">
-                <div class="btn-style btn-4" ng-switch-when="false" ng-click="kai_shi()">开始</div>
-                <div class="btn-style btn-4"  ng-switch-when="true" ng-click="jie_shu()">结束</div>
-             </div>
-          </div>
+        <div ng-switch on="loginData">
+            <div class="btn-style btn-4" ng-switch-when="false" ng-click="kai_shi()">开始</div>
+            <div class="btn-style btn-4" ng-switch-when="true" ng-click="jie_shu()">结束</div>
+        </div>
+    </div>
 
-
-
-
- <!--<a ng-click= class="btn-style btn-4">开始</a>-->
+    <!--<a ng-click= class="btn-style btn-4">开始</a>-->
 
     <!--</div>-->
     <!--<div class="header-pulldown">   &lt;!&ndash;空白行&ndash;&gt;-->
-<!---->
+    <!---->
     <!--</div>-->
-</div>
 </header>
-</body>
 
 
-<footer >
-    <ul class='footer-nav footer-nav-2tabs'style=color:#000000>
+
+
+        <ul class="list-style-2"style="-webkit-transition: -webkit-transform 0ms; transition: -webkit-transform 0ms; -webkit-transform-origin: 0px 0px; -webkit-transform: translate3d(0px, 0px, 0px);"
+
+       <!--<li ng-repeat="activity in ">-->
+                  <h3>{{  }}</h3>
+        <!--</li>-->
+         </ul>
+
+
+
+
+
+<footer>
+    <ul class='footer-nav footer-nav-2tabs' style=color:#000000>
         <li class='active'>
             <a class='btn-style btn-4' ng-tap='go_sign_up()'>报名</a>
         </li>
@@ -43,3 +50,5 @@
         </li>
     </ul>
 </footer>
+
+
