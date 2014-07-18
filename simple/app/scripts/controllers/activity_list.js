@@ -25,11 +25,9 @@ angular.module('simpleApp')
             $location.path('/main')
         }
 
-        if(!name){
 
-        }
 
-        choose_index()
+//        choose_index()
         function choose_index(){
             var choose = JSON.parse(localStorage.getItem('activities')) || []
             if(choose.length==0){
@@ -47,6 +45,11 @@ angular.module('simpleApp')
             if (Activity.background_yellow(activity)) {
                 return "start";
             }
+        }
+
+        $scope.go_sign=function(name){
+            localStorage.curent_activity=name
+
         }
 
     });

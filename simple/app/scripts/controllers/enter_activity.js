@@ -40,9 +40,29 @@ angular.module('simpleApp')
 //        message.search(/bm/i) == 0
 
 
+       function show_message(){
+
+           var messages = JSON.parse(localStorage.getItem('messages'))||[];
+           console.log(11111111111111111)
+           for(var i=0; i<messages[0].activity.length;i++){
+
+               if(messages[i].activity==messages){
+                   $scope.show_render=true;
+                   return;
+               }
+
+           }
+
+       }
 
 
     });
+
+
+
+
+
+
 
 
 

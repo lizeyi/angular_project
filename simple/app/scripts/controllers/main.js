@@ -18,14 +18,14 @@ angular.module('simpleApp')
 
         var activities = JSON.parse(localStorage.getItem('activities'))||[];
         if (activities.length == 0) {
-            $scope.fanhui = "false"
+            $scope.show_return = "false"
         }
         else {
-            $scope.fanhui = "true"
+            $scope.show_return = "true"
         }
 
 
-        $scope.fan_hui = function () {
+        $scope.return_page = function () {
             $location.path('/activity_list')
         }
 
@@ -37,12 +37,13 @@ angular.module('simpleApp')
         }
 
         function judge_repeat_activity() {
-            var activities = JSON.parse(localStorage.getItem('activities' )) || []
+
 
             if (activities == '') {
                 var activity = {}
                 activity.name = $scope.name;
                 activities.unshift(activity);
+                var activities = JSON.parse(localStorage.getItem('activities' )) || []
                 localStorage.setItem("activities", JSON.stringify(activities));
                 $location.path('/enter_activity')
             }

@@ -15,7 +15,8 @@
 
         <li ng-repeat="activity in list">
 
-            <h3>{{activity.name}}</h3>
+
+           <a href=#/enter_activity button ng-click='go_sign(activity.name)' > <h3>{{activity.name}}</h3></a>
         </li>
     </ul>
 </div>

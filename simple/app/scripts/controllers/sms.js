@@ -14,33 +14,35 @@ var native_accessor = {
     },
 
     process_received_message:function (json_message) {
-console.log(json_message)
-
-console.log(json_message.messages[0].message)
-        console.log(json_message.messages[0].phone)
-
-
-        var massages={"name":"name",'phone':'phone'}
-        massages.name=json_message.messages[0].message;
-        massages.phone=json_message.messages[0].phone;
-        console.log(massages)
+        console.log(json_message);
+        console.log(json_message.messages[0].message);
+        console.log(json_message.messages[0].phone);
 
 
 
-        message=JSON.parse(localStorage.getItem('activities'));
+        var activities=JSON.parse(localStorage.getItem('activities'));
+        var messages=JSON.parse(localStorage.getItem('messages')) || [];
+        var message={};
+        message.activity=localStorage.curent_activity;
+        message.name=json_message.messages[0].message;
+        message.phone=json_message.messages[0].phone;
+        messages.unshift(message);
+        localStorage.setItem("messages", JSON.stringify(messages));
 
-         message.unshift(massages)
-        localStorage.setItem("activities", JSON.stringify(message));
+    }
 
 
 
+//    save_message:function(new_message) {
+//    var new_messages = {'new_name': '', 'new_phone': '', 'new_activity': ''}
+//    new_messages.new_name = massages.name;
+//    new_messages.new_phone = massage.phone;
+//    new_messages.new_activity = old_message;
+//    message.unshift(save_massages)
+//    localStorage.setItem("new_message", JSON.stringify(message));
+//}
 
-        }
-
-
-
-
-    };
+};
 
 
 
@@ -50,5 +52,6 @@ function notify_message_received(message_json) {
     //alert(JSON.stringify(message_json.messages));
     native_accessor.receive_message(message_json);
     //phone_number=message_json.messages[0].phone;
+
 }
 
