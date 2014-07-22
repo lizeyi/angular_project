@@ -21,6 +21,12 @@ var native_accessor = {
 
 
 
+        var activities=JSON.parse(localStorage.getItem('activities'))
+
+        for(var i=0;i<activities.length;i++)
+            if(activities[i].name==localStorage.curent_activity){
+                var get_status =JSON.parse(localStorage.getItem('activities'))
+                if(get_status[i].status=='true'){
 
 
         var messages=JSON.parse(localStorage.getItem('messages')) || [];
@@ -33,6 +39,8 @@ var native_accessor = {
         localStorage.setItem("messages", JSON.stringify(messages));
        // console.log('1111111111',messages)
 
+    }
+            }
     }
 
 
