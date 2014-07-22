@@ -23,6 +23,7 @@ angular.module('simpleApp')
 
         $scope.creat_activity=function(){
             $location.path('/main')
+            localStorage.curent_activity=activity.name;
         }
 
 

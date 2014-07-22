@@ -27,10 +27,15 @@
             <div id="wrapper" class="wrapper scrollable">
                 <ul class="list-style-2">
 
-                    <li ng-repeat="messages in list"ng-shwo="show_render">
+                    <li ng-repeat="final_message in enter_list">
 
-                        <h3>{{message.name}}</h3><h3>{{message.phone}}</h3></a>
+                        <a>
+                            <h3>{{final_message.name}}</h3>
+                        <h3>{{final_message.phone}}</h3>
+                        </a>
                     </li>
+                </ul>
+            </div>
 
 
 
@@ -38,14 +43,6 @@
                 <ul>
                   <li ng-repeat="one in all" class="yellow">{{one.name}}</li>
                 </ul>
-
-
-            <!--<ul class="list-style-2"style="-webkit-transition: -webkit-transform 0ms; transition: -webkit-transform 0ms; -webkit-transform-origin: 0px 0px; -webkit-transform: translate3d(0px, 0px, 0px);"-->
-
-            <!--<li ng-repeat="activity in ">-->
-            <!--<h3>{{  }}</h3>-->
-            <!--</li>-->
-            <!--</ul>-->
 
 
             <footer>

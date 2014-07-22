@@ -20,27 +20,21 @@ var native_accessor = {
 
 
 
-        var activities=JSON.parse(localStorage.getItem('activities'));
+
+
+
         var messages=JSON.parse(localStorage.getItem('messages')) || [];
         var message={};
         message.activity=localStorage.curent_activity;
+       // console.log('00000000000',message.activity)
         message.name=json_message.messages[0].message;
         message.phone=json_message.messages[0].phone;
         messages.unshift(message);
         localStorage.setItem("messages", JSON.stringify(messages));
+       // console.log('1111111111',messages)
 
     }
 
-
-
-//    save_message:function(new_message) {
-//    var new_messages = {'new_name': '', 'new_phone': '', 'new_activity': ''}
-//    new_messages.new_name = massages.name;
-//    new_messages.new_phone = massage.phone;
-//    new_messages.new_activity = old_message;
-//    message.unshift(save_massages)
-//    localStorage.setItem("new_message", JSON.stringify(message));
-//}
 
 };
 

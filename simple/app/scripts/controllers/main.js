@@ -32,18 +32,19 @@ angular.module('simpleApp')
 
         $scope.create_activity = function () {
 
+
             judge_repeat_activity();
 
         }
 
         function judge_repeat_activity() {
-
+            var activities = JSON.parse(localStorage.getItem('activities' )) || []
 
             if (activities == '') {
                 var activity = {}
                 activity.name = $scope.name;
+                activity.status='false'
                 activities.unshift(activity);
-                var activities = JSON.parse(localStorage.getItem('activities' )) || []
                 localStorage.setItem("activities", JSON.stringify(activities));
                 $location.path('/enter_activity')
             }
@@ -57,11 +58,15 @@ angular.module('simpleApp')
                 $scope.show_render = false;
                 var activity = {}
                 activity.name = $scope.name;
+                activity.status='false'
                 activities.unshift(activity);
                 localStorage.setItem("activities", JSON.stringify(activities));
+                localStorage.curent_activity=$scope.name
                 $location.path('/enter_activity')
             }
         }
+
+
 
 
     });
